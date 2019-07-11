@@ -1,0 +1,426 @@
+//////////////////////////////////////////////////////////////////////
+/////////////////////////////// Summary //////////////////////////////
+//////////////////////////////////////////////////////////////////////
+
+		Features:  			        17
+		Components:			        25
+		Number of Files:		        61
+		Size of Files:   		       8029647
+		Size in Library:		       2740780
+
+
+		<Support>
+			Engine
+				Log
+				Kernel
+			Main Installation
+				Script
+				Setup
+				StrTbl
+				RunTime
+				Resource
+				<ISUS>Update Service Support Files
+		<Data>
+			Disk<1>
+			<ISUS>Update Service Executables
+				<ISUS>Update Agent
+				<ISUS>Update Manager
+			DefaultFeature
+
+
+//////////////////////////////////////////////////////////////////////
+///////////////////////////// Features ///////////////////////////////
+//////////////////////////////////////////////////////////////////////
+
+*<Support>*
+
+		Component
+		------------------------------------------------------
+
+*<Support>\Engine*
+
+		Component
+		------------------------------------------------------
+
+*<Support>\Engine\Log*
+
+		Component
+		------------------------------------------------------
+
+*<Support>\Engine\Kernel*
+
+		Component
+		------------------------------------------------------
+		"<Engine>Kernel Placeholder"
+		"<Engine>EngineCommonPlaceHolderSelfReg"
+		"<Engine>EngineCommonPlaceHolder"
+
+*<Support>\Main Installation*
+
+		Component
+		------------------------------------------------------
+
+*<Support>\Main Installation\Script*
+
+		Component
+		------------------------------------------------------
+		"<Support>Script"
+
+*<Support>\Main Installation\Setup*
+
+		Component
+		------------------------------------------------------
+		"<Support>Language Independent OS Independent Files"
+		"<Support>Russian OS Independent Files"
+		"<Support>Misc Support Files"
+		"<Support>Build Generated Support Files"
+
+*<Support>\Main Installation\StrTbl*
+
+		Component
+		------------------------------------------------------
+		"<Support>Russian String Tables"
+
+*<Support>\Main Installation\RunTime*
+
+		Component
+		------------------------------------------------------
+		"<Support>Non-SelfRegistering"
+
+*<Support>\Main Installation\Resource*
+
+		Component
+		------------------------------------------------------
+		"<Support>Russian Files"
+
+*<Support>\Main Installation\<ISUS>Update Service Support Files*
+
+		Component
+		------------------------------------------------------
+		"<Support>ISUS Configuration File"
+
+*<Data>*
+
+		Component
+		------------------------------------------------------
+
+*<Data>\Disk<1>*
+
+		Component
+		------------------------------------------------------
+		"<Disk1>Disk1 Files(1)"
+		"<Disk1>Disk1 Files(2)"
+		"<Disk1>Disk1 Files(3)"
+		"<Disk1>Disk1 Files(4)"
+
+*<Data>\<ISUS>Update Service Executables*
+
+		Component
+		------------------------------------------------------
+
+*<Data>\<ISUS>Update Service Executables\<ISUS>Update Agent*
+
+		Component
+		------------------------------------------------------
+		"<ISUS>Agent - Reg Shared"
+		"<ISUS>Web Agent - Reg"
+		"<ISUS>Player - Reg Shared"
+		"<ISUS>Player Stub - Reg Shared"
+		"<ISUS>Agent - Non Reg"
+
+*<Data>\<ISUS>Update Service Executables\<ISUS>Update Manager*
+
+		Component
+		------------------------------------------------------
+		"<ISUS>Scheduler"
+		"<ISUS>Applet"
+
+*<Data>\DefaultFeature*
+
+		Component
+		------------------------------------------------------
+		"DefaultComponent"
+		"NewComponent1"
+
+
+//////////////////////////////////////////////////////////////////////
+///////////////////////////// Components ////////////////////////////
+//////////////////////////////////////////////////////////////////////
+
+><Engine>Kernel Placeholder<
+
+		Size of Files:   		             0
+
+
+		File                                                    Date        Time         Size         Version            Attributes    MD5                                     Source file
+		------------------------------------------------------  ----------  -----------  -----------  -----------------  ------------  --------------------------------------  ------------------------------------------------
+		"ikernel.dll"                                           13.11.2005     22:49:56            0  ""                 "A"           "d41d8cd98f00b204e9800998ecf8427e"      "c:\program files\macrovision\is11.5\support\build\ikernel.dll"
+		"setup.dll"                                             13.11.2005     22:49:56            0  ""                 "A"           "d41d8cd98f00b204e9800998ecf8427e"      "c:\program files\macrovision\is11.5\support\build\setup.dll"
+		"dotnetinstaller.exe"                                   13.11.2005     22:49:54            0  ""                 "A"           "d41d8cd98f00b204e9800998ecf8427e"      "c:\program files\macrovision\is11.5\support\build\dotnetinstaller.exe"
+		"iscript.dll"                                           13.11.2005     22:49:56            0  ""                 "A"           "d41d8cd98f00b204e9800998ecf8427e"      "c:\program files\macrovision\is11.5\support\build\iscript.dll"
+		"ctor.dll"                                              13.11.2005     22:49:54            0  ""                 "A"           "d41d8cd98f00b204e9800998ecf8427e"      "c:\program files\macrovision\is11.5\support\build\ctor.dll"
+		"iuser.dll"                                             13.11.2005     22:49:56            0  ""                 "A"           "d41d8cd98f00b204e9800998ecf8427e"      "c:\program files\macrovision\is11.5\support\build\iuser.dll"
+		"igdi.dll"                                              13.11.2005     22:49:56            0  ""                 "A"           "d41d8cd98f00b204e9800998ecf8427e"      "c:\program files\macrovision\is11.5\support\build\igdi.dll"
+		"isbew64.exe"                                           13.11.2005     22:49:56            0  ""                 "A"           "d41d8cd98f00b204e9800998ecf8427e"      "c:\program files\macrovision\is11.5\support\build\isbew64.exe"
+
+><Engine>EngineCommonPlaceHolderSelfReg<
+
+		Size of Files:   		             0
+
+
+		File                                                    Date        Time         Size         Version            Attributes    MD5                                     Source file
+		------------------------------------------------------  ----------  -----------  -----------  -----------------  ------------  --------------------------------------  ------------------------------------------------
+		"isprobe.tlb"                                           13.11.2005     22:49:56            0  ""                 "A"           "d41d8cd98f00b204e9800998ecf8427e"      "c:\program files\macrovision\is11.5\support\build\isprobe.tlb"
+		"objectps.dll"                                          13.11.2005     22:49:56            0  ""                 "A"           "d41d8cd98f00b204e9800998ecf8427e"      "c:\program files\macrovision\is11.5\support\build\objectps.dll"
+		"isbew64.tlb"                                           13.11.2005     22:49:56            0  ""                 "A"           "d41d8cd98f00b204e9800998ecf8427e"      "c:\program files\macrovision\is11.5\support\build\isbew64.tlb"
+
+><Engine>EngineCommonPlaceHolder<
+
+		Size of Files:   		             0
+
+
+		File                                                    Date        Time         Size         Version            Attributes    MD5                                     Source file
+		------------------------------------------------------  ----------  -----------  -----------  -----------------  ------------  --------------------------------------  ------------------------------------------------
+		"ikernel.rgs"                                           13.11.2005     22:49:56            0  ""                 "A"           "d41d8cd98f00b204e9800998ecf8427e"      "c:\program files\macrovision\is11.5\support\build\ikernel.rgs"
+		"isbew64.rgs"                                           13.11.2005     22:49:56            0  ""                 "A"           "d41d8cd98f00b204e9800998ecf8427e"      "c:\program files\macrovision\is11.5\support\build\isbew64.rgs"
+
+><Support>Script<
+
+		Size of Files:   		        228895
+		Size in Library:		        228895
+
+
+		File                                                    Date        Time         Size         Version            Attributes    MD5                                     Source file
+		------------------------------------------------------  ----------  -----------  -----------  -----------------  ------------  --------------------------------------  ------------------------------------------------
+		"setup.inx"                                             12.09.2011     10:55:40       228895  ""                 "AC"          "f7f383649c3a546d9d02773ae58c9797"      "\\dbserver\ppvti_hq_profiles$\mnem\мои документы\visual studio 2010\projects\activemqadapterdll\activemqadapterinst\activemqadapter\script files\setup.inx"
+
+><Support>Language Independent OS Independent Files<
+
+		Size of Files:   		         11493
+		Size in Library:		          2605
+
+
+		File                                                    Date        Time         Size         Version            Attributes    MD5                                     Source file
+		------------------------------------------------------  ----------  -----------  -----------  -----------------  ------------  --------------------------------------  ------------------------------------------------
+		"license.rtf"                                           13.11.2005     22:43:26        11493  ""                 "A"           "e7eb45e877c8cb80f56e9dbc9504e757"      "c:\program files\macrovision\is11.5\redist\0409\license.rtf"
+
+><Support>Russian OS Independent Files<
+
+		Size of Files:   		             0
+
+
+		File                                                    Date        Time         Size         Version            Attributes    MD5                                     Source file
+		------------------------------------------------------  ----------  -----------  -----------  -----------------  ------------  --------------------------------------  ------------------------------------------------
+
+><Support>Misc Support Files<
+
+		Size of Files:   		         65503
+		Size in Library:		         12414
+
+
+		File                                                    Date        Time         Size         Version            Attributes    MD5                                     Source file
+		------------------------------------------------------  ----------  -----------  -----------  -----------------  ------------  --------------------------------------  ------------------------------------------------
+		"corecomp.ini"                                          13.11.2005     22:44:44        65503  ""                 "A"           "09d38ceca6a012f4ce5b54f03db9b21a"      "c:\program files\macrovision\is11.5\redist\compressed files\language independent\os independent\corecomp.ini"
+
+><Support>Build Generated Support Files<
+
+		Size of Files:   		           125
+		Size in Library:		            99
+
+
+		File                                                    Date        Time         Size         Version            Attributes    MD5                                     Source file
+		------------------------------------------------------  ----------  -----------  -----------  -----------------  ------------  --------------------------------------  ------------------------------------------------
+		"fontdata.ini"                                          12.09.2011     10:55:46           39  ""                 "A"           "00f313e3e007599349a0c4d81c7807c4"      "c:\docume~1\mnem\locals~1\temp\fontdata.ini"
+		"difxdata.ini"                                          12.09.2011     10:55:46           86  ""                 "A"           "10baa5b67536f4433f37534b9c8bb828"      "c:\docume~1\mnem\locals~1\temp\difxdata.ini"
+
+><Support>Russian String Tables<
+
+		Size of Files:   		           344
+		Size in Library:		           191
+
+
+		File                                                    Date        Time         Size         Version            Attributes    MD5                                     Source file
+		------------------------------------------------------  ----------  -----------  -----------  -----------------  ------------  --------------------------------------  ------------------------------------------------
+		"stringtable-0019-russian.ips"                          12.09.2011     10:55:40          344  ""                 "AC"          "90e18b0f51979804983764f0440fea10"      "\\dbserver\ppvti_hq_profiles$\mnem\мои документы\visual studio 2010\projects\activemqadapterdll\activemqadapterinst\activemqadapter\string tables\stringtable-0019-russian.ips"
+
+><Support>Non-SelfRegistering<
+
+		Size of Files:   		        439440
+		Size in Library:		        218076
+
+
+		File                                                    Date        Time         Size         Version            Attributes    MD5                                     Source file
+		------------------------------------------------------  ----------  -----------  -----------  -----------------  ------------  --------------------------------------  ------------------------------------------------
+		"isrt.dll"                                              13.11.2005     23:23:18       438272  "11.50.0.42618"    "A"           "607fa179053d4cdc411f5181c0a307e2"      "c:\program files\macrovision\is11.5\redist\compressed files\language independent\intel 32\isrt.dll"
+		"default.pal"                                           13.11.2005     22:44:44         1168  ""                 "A"           "0abafe3f69d053494405061de2629c82"      "c:\program files\macrovision\is11.5\redist\compressed files\language independent\intel 32\default.pal"
+
+><Support>Russian Files<
+
+		Size of Files:   		        323584
+		Size in Library:		         84839
+
+
+		File                                                    Date        Time         Size         Version            Attributes    MD5                                     Source file
+		------------------------------------------------------  ----------  -----------  -----------  -----------------  ------------  --------------------------------------  ------------------------------------------------
+		"_isres.dll"                                            14.11.2005     01:20:38       323584  "11.50.0.42618"    "A"           "7a70fec0945dc23e167d19d81a013b47"      "c:\program files\macrovision\is11.5\redist\0419\i386\_isres.dll"
+
+><Disk1>Disk1 Files(1)<
+
+		Size of Files:   		             0
+
+
+		File                                                    Date        Time         Size         Version            Attributes    MD5                                     Source file
+		------------------------------------------------------  ----------  -----------  -----------  -----------------  ------------  --------------------------------------  ------------------------------------------------
+		"layout.bin"                                            13.11.2005     22:49:56            0  ""                 "A"           "d41d8cd98f00b204e9800998ecf8427e"      "c:\program files\macrovision\is11.5\support\build\layout.bin"
+		"data1.hdr"                                             13.11.2005     22:49:54            0  ""                 "A"           "d41d8cd98f00b204e9800998ecf8427e"      "c:\program files\macrovision\is11.5\support\build\data1.hdr"
+		"data1.cab"                                             13.11.2005     22:49:54            0  ""                 "A"           "d41d8cd98f00b204e9800998ecf8427e"      "c:\program files\macrovision\is11.5\support\build\data1.cab"
+
+><Disk1>Disk1 Files(2)<
+
+		Size of Files:   		        121064
+		Size in Library:		        121064
+
+
+		File                                                    Date        Time         Size         Version            Attributes    MD5                                     Source file
+		------------------------------------------------------  ----------  -----------  -----------  -----------------  ------------  --------------------------------------  ------------------------------------------------
+		"setup.exe"                                             14.11.2005     02:24:00       121064  "11.50.0.42618"    "AC"          "49b3d2077199c44c1f3bbb16b4094ae6"      "\\dbserver\ppvti_hq_profiles$\mnem\мои документы\visual studio 2010\projects\activemqadapterdll\activemqadapterinst\activemqadapter\media\single_exe_image\disk images\disk1\setup.exe"
+
+><Disk1>Disk1 Files(3)<
+
+		Size of Files:   		        228895
+		Size in Library:		        228895
+
+
+		File                                                    Date        Time         Size         Version            Attributes    MD5                                     Source file
+		------------------------------------------------------  ----------  -----------  -----------  -----------------  ------------  --------------------------------------  ------------------------------------------------
+		"setup.inx"                                             12.09.2011     10:55:40       228895  ""                 "AC"          "f7f383649c3a546d9d02773ae58c9797"      "\\dbserver\ppvti_hq_profiles$\mnem\мои документы\visual studio 2010\projects\activemqadapterdll\activemqadapterinst\activemqadapter\script files\setup.inx"
+
+><Disk1>Disk1 Files(4)<
+
+		Size of Files:   		           469
+		Size in Library:		           469
+
+
+		File                                                    Date        Time         Size         Version            Attributes    MD5                                     Source file
+		------------------------------------------------------  ----------  -----------  -----------  -----------------  ------------  --------------------------------------  ------------------------------------------------
+		"setup.ini"                                             12.09.2011     10:55:46          469  ""                 "AC"          "45d476be34f85b6068f3ff3981b6d9bd"      "\\dbserver\ppvti_hq_profiles$\mnem\мои документы\visual studio 2010\projects\activemqadapterdll\activemqadapterinst\activemqadapter\media\single_exe_image\disk images\disk1\setup.ini"
+
+><ISUS>Agent - Reg Shared<
+
+		Size of Files:   		        897024
+		Size in Library:		        405940
+
+
+		File                                                    Date        Time         Size         Version            Attributes    MD5                                     Source file
+		------------------------------------------------------  ----------  -----------  -----------  -----------------  ------------  --------------------------------------  ------------------------------------------------
+		"agent.exe"                                             11.08.2005     15:30:30       618496  "4.60.100.37068"   "A"           "a325c1dde8913d168905408e89c0be08"      "c:\program files\macrovision\is11.5\redist\update service\agent.exe"
+		"isdm.exe"                                              11.08.2005     15:30:30       278528  "4.60.100.37068"   "A"           "e52ac70fb0da0dc2f4027bda3b2d6597"      "c:\program files\macrovision\is11.5\redist\update service\isdm.exe"
+
+><ISUS>Web Agent - Reg<
+
+		Size of Files:   		        417792
+		Size in Library:		        186581
+
+
+		File                                                    Date        Time         Size         Version            Attributes    MD5                                     Source file
+		------------------------------------------------------  ----------  -----------  -----------  -----------------  ------------  --------------------------------------  ------------------------------------------------
+		"isusweb.dll"                                           11.08.2005     15:30:30       417792  "4.60.100.37068"   "A"           "b8f39c9e0f0b71e454dba431cf3b99c9"      "c:\program files\macrovision\is11.5\redist\update service\isusweb.dll"
+
+><ISUS>Player - Reg Shared<
+
+		Size of Files:   		        196608
+		Size in Library:		         87554
+
+
+		File                                                    Date        Time         Size         Version            Attributes    MD5                                     Source file
+		------------------------------------------------------  ----------  -----------  -----------  -----------------  ------------  --------------------------------------  ------------------------------------------------
+		"dwusplay.exe"                                          25.07.2002     17:13:12       196608  "1.20.100.1203"    "A"           "cdbe35ea59bc9223e4f800bd1db82d27"      "c:\program files\macrovision\is11.5\redist\update service\dwusplay.exe"
+
+><ISUS>Player Stub - Reg Shared<
+
+		Size of Files:   		         24576
+		Size in Library:		          1530
+
+
+		File                                                    Date        Time         Size         Version            Attributes    MD5                                     Source file
+		------------------------------------------------------  ----------  -----------  -----------  -----------------  ------------  --------------------------------------  ------------------------------------------------
+		"dwusplay.dll"                                          25.07.2002     17:13:18        24576  "1.20.100.1203"    "A"           "3fea9d2edf23b0283c7a66c8dea380bd"      "c:\program files\macrovision\is11.5\redist\update service\dwusplay.dll"
+
+><ISUS>Agent - Non Reg<
+
+		Size of Files:   		        450560
+		Size in Library:		        110964
+
+
+		File                                                    Date        Time         Size         Version            Attributes    MD5                                     Source file
+		------------------------------------------------------  ----------  -----------  -----------  -----------------  ------------  --------------------------------------  ------------------------------------------------
+		"issch.exe"                                             11.08.2005     15:30:30        81920  "4.60.100.37068"   "A"           "7d58c9bdf9c0a3955bdcde7387ad12ac"      "c:\program files\macrovision\is11.5\redist\update service\issch.exe"
+		"_isusres.dll"                                          11.08.2005     15:30:30       368640  "4.60.100.37068"   "A"           "e5f7078ecb5347e60f25415be05438d0"      "c:\program files\macrovision\is11.5\redist\update service\_isusres.dll"
+
+><ISUS>Scheduler<
+
+		Size of Files:   		        662928
+		Size in Library:		        214721
+
+
+		File                                                    Date        Time         Size         Version            Attributes    MD5                                     Source file
+		------------------------------------------------------  ----------  -----------  -----------  -----------------  ------------  --------------------------------------  ------------------------------------------------
+		"isuspm.exe"                                            11.08.2005     15:30:30       249856  "4.60.100.37068"   "A"           "1c46fc1ab600766b8554580204806e84"      "c:\program files\macrovision\is11.5\redist\update service\isuspm.exe"
+		"pm.css"                                                11.08.2005     15:30:30         3176  ""                 "A"           "d73bd4a5488105278a500f4d5731bfff"      "c:\program files\macrovision\is11.5\redist\update service\pm.css"
+		"pm.html"                                               11.08.2005     15:30:30         4878  ""                 "A"           "f297da34f2768c425a9015d2fa6debf3"      "c:\program files\macrovision\is11.5\redist\update service\pm.html"
+		"_ispmres.dll"                                          11.08.2005     15:30:30       368640  "4.60.100.37068"   "A"           "95a3911af69625a07d16b9eabdcff212"      "c:\program files\macrovision\is11.5\redist\update service\_ispmres.dll"
+		"isuspm.exe.manifest"                                   11.08.2005     15:30:32          586  ""                 "A"           "f6edf9703c2b936f96324dc366e19c22"      "c:\program files\macrovision\is11.5\redist\update service\isuspm.exe.manifest"
+		"images\background.jpg"                                 11.08.2005     15:30:30        18725  ""                 "A"           "5c321614c6ddaa99aa00421356732f7f"      "c:\program files\macrovision\is11.5\redist\update service\images\background.jpg"
+		"images\file16.gif"                                     11.08.2005     15:30:30          961  ""                 "A"           "305fee16f0e789565bd29496e1d852a7"      "c:\program files\macrovision\is11.5\redist\update service\images\file16.gif"
+		"images\helpdoc16.gif"                                  11.08.2005     15:30:30          987  ""                 "A"           "8523b43a08fa6df6aefd1a33318e9ea6"      "c:\program files\macrovision\is11.5\redist\update service\images\helpdoc16.gif"
+		"images\left_task.gif"                                  11.08.2005     15:30:30         7753  ""                 "A"           "77f7548c859d335749ff2bdf350aa613"      "c:\program files\macrovision\is11.5\redist\update service\images\left_task.gif"
+		"images\left_task2.gif"                                 11.08.2005     15:30:30         7323  ""                 "A"           "8e102a063f1fd95c10b507406226aa3d"      "c:\program files\macrovision\is11.5\redist\update service\images\left_task2.gif"
+		"images\spacer.gif"                                     11.08.2005     15:30:30           43  ""                 "A"           "325472601571f31e1bf00674c368d335"      "c:\program files\macrovision\is11.5\redist\update service\images\spacer.gif"
+
+><ISUS>Applet<
+
+		Size of Files:   		         73728
+		Size in Library:		         32135
+
+
+		File                                                    Date        Time         Size         Version            Attributes    MD5                                     Source file
+		------------------------------------------------------  ----------  -----------  -----------  -----------------  ------------  --------------------------------------  ------------------------------------------------
+		"isuspm.cpl"                                            11.08.2005     15:29:46        73728  "4.60.100.37068"   "A"           "fcc80264ac3ee1ec69e6dc8c38b2a2f9"      "c:\program files\macrovision\is11.5\redist\update service\isuspm.cpl"
+
+><Support>ISUS Configuration File<
+
+		Size of Files:   		           491
+		Size in Library:		           266
+
+
+		File                                                    Date        Time         Size         Version            Attributes    MD5                                     Source file
+		------------------------------------------------------  ----------  -----------  -----------  -----------------  ------------  --------------------------------------  ------------------------------------------------
+		"isusrt.ini"                                            12.09.2011     10:55:42          491  ""                 "A"           "1d21fd483bd00c0f862506f799f2f523"      "c:\docume~1\mnem\locals~1\temp\isusrt.ini"
+
+>DefaultComponent<
+
+		Size of Files:   		             0
+
+
+		File                                                    Date        Time         Size         Version            Attributes    MD5                                     Source file
+		------------------------------------------------------  ----------  -----------  -----------  -----------------  ------------  --------------------------------------  ------------------------------------------------
+
+>NewComponent1<
+
+		Size of Files:   		       3886128
+		Size in Library:		        803542
+
+
+		File                                                    Date        Time         Size         Version            Attributes    MD5                                     Source file
+		------------------------------------------------------  ----------  -----------  -----------  -----------------  ------------  --------------------------------------  ------------------------------------------------
+		"activemqadapter.dll"                                   12.09.2011     10:17:18        21504  "1.0.0.1"          "A"           "127aa8da2c75f20189e9083bdf6cd860"      "c:\release\activemqadapter.dll"
+		"activemqadapter.dll.config"                            06.09.2011     10:04:16          170  ""                 "A"           "c4be51098ac6e9a738993f0cd532a02a"      "c:\release\activemqadapter.dll.config"
+		"activemqadapter.pdb"                                   12.09.2011     10:17:18        46592  ""                 "A"           "2f9be7b875d64ef9f0b1355b552b5f17"      "c:\release\activemqadapter.pdb"
+		"activemqadapter.xml"                                   12.09.2011     10:17:18          920  ""                 "A"           "7c31a6b8a00eb61918f5bb339a0585f8"      "c:\release\activemqadapter.xml"
+		"apache.nms.activemq.dll"                               17.08.2011     15:10:52       507904  "1.5.0.2235"       "A"           "ecdad8e9dbbcd2d7541018b92b2eaeff"      "c:\release\apache.nms.activemq.dll"
+		"apache.nms.activemq.pdb"                               17.08.2011     15:11:54      2704896  ""                 "A"           "a3f30339c1d8fce5c0e6e6fda1f46c05"      "c:\release\apache.nms.activemq.pdb"
+		"apache.nms.activemq.xml"                               17.08.2011     15:10:44       380029  ""                 "A"           "d0fcdf4067299bd34061bbab3bdc927c"      "c:\release\apache.nms.activemq.xml"
+		"apache.nms.dll"                                        17.08.2011     15:10:22        73728  "1.5.0.2194"       "A"           "e195ee02ceb0a78c22073a3b49d235f8"      "c:\release\apache.nms.dll"
+		"ionic.zlib.dll"                                        17.08.2011     15:10:26        98304  "1.9.1.5"          "A"           "542e73d6b318884f52b4c149935bfe12"      "c:\release\ionic.zlib.dll"
+		"reg.bat"                                               23.08.2011     13:28:02           41  ""                 "A"           "803045c08419737c3af5b210fc18edc7"      "c:\release\reg.bat"
+		"regasm.exe"                                            18.03.2010     13:16:28        52040  "4.0.30319.1"      "A"           "c28046946af1768df49a7cd84b16bcad"      "c:\release\regasm.exe"

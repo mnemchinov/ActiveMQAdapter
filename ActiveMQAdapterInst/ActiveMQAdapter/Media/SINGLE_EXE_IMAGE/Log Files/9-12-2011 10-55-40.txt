@@ -1,0 +1,100 @@
+================= Logging started at 9/12/2011 10:55:40 ==================
+Calculating size of cabinet files...
+Copying uncompressed setup files...
+Preprocessing data for data1.hdr...
+Feature: <Support>
+Feature: <Support>\Engine
+Feature: <Support>\Engine\Log
+Feature: <Support>\Engine\Kernel
+   Component: <Engine>Kernel Placeholder
+   Component: <Engine>EngineCommonPlaceHolderSelfReg
+   Component: <Engine>EngineCommonPlaceHolder
+Feature: <Support>\Main Installation
+Feature: <Data>
+Feature: Script
+   Component: <Support>Script
+Feature: Setup
+   Component: <Support>Language Independent OS Independent Files
+   Component: <Support>Russian OS Independent Files
+   Component: <Support>Misc Support Files
+   Component: <Support>Build Generated Support Files
+Feature: StrTbl
+   Component: <Support>Russian String Tables
+Feature: RunTime
+   Component: <Support>Non-SelfRegistering
+Feature: Resource
+   Component: <Support>Russian Files
+Feature: Disk<1>
+   Component: <Disk1>Disk1 Files(1)
+   Component: <Disk1>Disk1 Files(2)
+   Component: <Disk1>Disk1 Files(3)
+   Component: <Disk1>Disk1 Files(4)
+Feature: <ISUS>Update Service Executables
+Feature: <ISUS>Update Service Executables\<ISUS>Update Agent
+   Component: <ISUS>Agent - Reg Shared
+   Component: <ISUS>Web Agent - Reg
+   Component: <ISUS>Player - Reg Shared
+   Component: <ISUS>Player Stub - Reg Shared
+   Component: <ISUS>Agent - Non Reg
+Feature: <ISUS>Update Service Executables\<ISUS>Update Manager
+   Component: <ISUS>Scheduler
+   Component: <ISUS>Applet
+Feature: <ISUS>Update Service Support Files
+   Component: <Support>ISUS Configuration File
+Feature: DefaultFeature
+   Component: DefaultComponent
+   Component: NewComponent1
+Processing registries...
+Building cabinet file data1.hdr...
+Building cabinet file data1.cab...
+Feature: <Support>
+Feature: <Support>\Engine
+Feature: <Support>\Engine\Log
+Feature: <Support>\Engine\Kernel
+   Component: <Engine>Kernel Placeholder
+   Component: <Engine>EngineCommonPlaceHolderSelfReg
+   Component: <Engine>EngineCommonPlaceHolder
+Feature: <Support>\Main Installation
+Feature: <Support>\Main Installation\Script
+   Component: <Support>Script
+Feature: <Support>\Main Installation\Setup
+   Component: <Support>Language Independent OS Independent Files
+   Component: <Support>Russian OS Independent Files
+   Component: <Support>Misc Support Files
+   Component: <Support>Build Generated Support Files
+Feature: <Support>\Main Installation\StrTbl
+   Component: <Support>Russian String Tables
+Feature: <Support>\Main Installation\RunTime
+   Component: <Support>Non-SelfRegistering
+Feature: <Support>\Main Installation\Resource
+   Component: <Support>Russian Files
+Feature: <Support>\Main Installation\<ISUS>Update Service Support Files
+   Component: <Support>ISUS Configuration File
+Feature: <Data>
+Building cabinet file data2.cab...
+Feature: <Data>\Disk<1>
+   Component: <Disk1>Disk1 Files(1)
+   Component: <Disk1>Disk1 Files(2)
+   Component: <Disk1>Disk1 Files(3)
+   Component: <Disk1>Disk1 Files(4)
+Feature: <Data>\<ISUS>Update Service Executables
+Feature: <Data>\<ISUS>Update Service Executables\<ISUS>Update Agent
+   Component: <ISUS>Agent - Reg Shared
+   Component: <ISUS>Web Agent - Reg
+   Component: <ISUS>Player - Reg Shared
+   Component: <ISUS>Player Stub - Reg Shared
+   Component: <ISUS>Agent - Non Reg
+Feature: <Data>\<ISUS>Update Service Executables\<ISUS>Update Manager
+   Component: <ISUS>Scheduler
+   Component: <ISUS>Applet
+Feature: <Data>\DefaultFeature
+   Component: DefaultComponent
+   Component: NewComponent1
+Creating disk layout file 'layout.bin'...
+Creating self-extracting exe...
+Build finished at 09/12/11 10:55:58.
+Automatic update notification enabled
+SINGLE_EXE_IMAGE - 0 error(s), 0 warning(s)
+================= Logging stopped at 9/12/2011 10:55:58 ==================
+Log file has been created: <file:\\DBSERVER\PPVTI_HQ_Profiles$\mnem\Мои документы\Visual Studio 2010\Projects\ActiveMQAdapterDLL\ActiveMQAdapterInst\ActiveMQAdapter\Media\SINGLE_EXE_IMAGE\Log Files\9-12-2011 10-55-40.txt>
+
